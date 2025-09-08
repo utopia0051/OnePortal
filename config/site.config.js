@@ -46,7 +46,7 @@ module.exports = {
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
     process.env.NEXT_PUBLIC_FOOTER ||
-    'Powered by <a href="https://github.com/EFLKumo/OnePortal" target="_blank" rel="noopener noreferrer">Jason的网盘</a>. Made with ❤ by Jason.',
+    'Powered by <a href="https://cloud.utopian.pp.ua/" target="_blank" rel="noopener noreferrer">Jason的网盘</a>. Made with ❤ by Jason.',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
