@@ -54,7 +54,7 @@ module.exports = {
     ? process.env.NEXT_PUBLIC_PROTECTED_ROUTES.split('|')
     : process.env.NEXT_PUBLIC_ROUTES
       ? process.env.NEXT_PUBLIC_ROUTES.split(',')
-      : [],
+      : [/🚀 遵纪守法小组','/💻 应用],
 
   // [OPTIONAL] Leave it empty if you want to remove this email address from the nav bar.
   // Format: mailto:i@example.com
