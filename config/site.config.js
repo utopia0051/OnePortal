@@ -51,7 +51,7 @@ module.exports = {
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
   protectedRoutes: process.env.NEXT_PUBLIC_PROTECTED_ROUTES
-    ? process.env.NEXT_PUBLIC_PROTECTED_ROUTES.split(|)
+    ? process.env.NEXT_PUBLIC_PROTECTED_ROUTES.split('|')
     : process.env.NEXT_PUBLIC_ROUTES
       ? process.env.NEXT_PUBLIC_ROUTES.split(',')
       : ['/🚀 遵纪守法小组|/💻 应用'],
