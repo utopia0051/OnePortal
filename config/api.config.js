@@ -12,14 +12,14 @@ module.exports = {
   // If this is changed, obfuscatedClientSecret should also be changed.
   // Use https://it-tools.tech/encryption to decrypt obfuscatedClientSecret with secret key 'OnePortal',
   // and then use your own secret key to encrypt it again.
-  aesKey: process.env.AES_SECRET_KEY || process.env.AES_KEY || 'OnePortal',
+  aesKey: process.env.AES_SECRET_KEY || process.env.AES_KEY || '2bP8Q~9AyG2Jb.HtIEmgRRsKoq6_wkWewja4qbMZ',
 
   // The clientId and clientSecret are used to authenticate the user with Microsoft Graph API using OAuth. You would
   // not need to change anything here if you can authenticate with your personal Microsoft account with OneDrive International.
   clientId: process.env.NEXT_PUBLIC_CLIENT_ID || '417cc4ee-9ecb-492b-b044-84b668ab811b',
   obfuscatedClientSecret:
     process.env.NEXT_PUBLIC_CLIENT_SECRET ||
-    'U2FsdGVkX1+r/6m12YyFICHltfXc8L7fdpnP9BDyi9tKMb9uGkCfzvpGsgrmaNQreleblUS5oJ2oE2KXg0HIJw==',
+    'U2FsdGVkX18zW9NXk1PX/DYE+/qhEB67uAEYLozmPA70W8Xg00hP2Djf6YYezeHMkpWxIGKoQrx8tPWgSzlDEA==',
 
   // The redirectUri is the URL that the user will be redirected to after they have authenticated with Microsoft Graph API.
   // Likewise, you would not need to change redirectUri if you are using your personal Microsoft account with OneDrive International.
