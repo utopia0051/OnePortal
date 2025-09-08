@@ -8,7 +8,7 @@ module.exports = {
   // You can also put this in your worker's environment variable if you worry about
   // your email being exposed in public.
   // Format: i@example.com
-  userPrincipalName: process.env.USER_PRINCIPLE_NAME || '',
+  userPrincipalName: process.env.USER_PRINCIPLE_NAME || 'utopia0051@outlook.com',
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
@@ -18,7 +18,7 @@ module.exports = {
   title: process.env.NEXT_PUBLIC_TITLE || 'OnePortal',
 
   // The folder that you are to share publicly with OnePortal. Use '/' if you want to share your root folder.
-  baseDirectory: process.env.BASE_DIRECTORY || '/',
+  baseDirectory: process.env.BASE_DIRECTORY || '/🌞 公共',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
@@ -46,7 +46,7 @@ module.exports = {
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
     process.env.NEXT_PUBLIC_FOOTER ||
-    'Powered by <a href="https://github.com/EFLKumo/OnePortal" target="_blank" rel="noopener noreferrer">OnePortal</a>. Made with ❤ by spencerwooo, lyc8503, EFL and other contributors.',
+    'Powered by <a href="https://github.com/EFLKumo/OnePortal" target="_blank" rel="noopener noreferrer">Jason的网盘</a>. Made with ❤ by Jason.',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
@@ -66,8 +66,8 @@ module.exports = {
   /*
     [
       {
-        name: 'GitHub',
-        link: 'https://github.com',
+        name: 'Jason',
+        link: 'Jason的网盘',
       },
     ],
     */
