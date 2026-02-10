@@ -8,7 +8,7 @@ module.exports = {
   // You can also put this in your worker's environment variable if you worry about
   // your email being exposed in public.
   // Format: i@example.com
-  userPrincipalName: process.env.USER_PRINCIPLE_NAME || 'utopia0051@outlook.com',
+  userPrincipalName: process.env.USER_PRINCIPLE_NAME || '',
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
@@ -54,7 +54,7 @@ module.exports = {
     ? process.env.NEXT_PUBLIC_PROTECTED_ROUTES.split('|')
     : process.env.NEXT_PUBLIC_ROUTES
       ? process.env.NEXT_PUBLIC_ROUTES.split(',')
-      : ['/🚀 遵纪守法小组','/💻 应用'],
+      : ['/🚀 遵纪守法小组','/💻 远程软件'],
 
   // [OPTIONAL] Leave it empty if you want to remove this email address from the nav bar.
   // Format: mailto:i@example.com
